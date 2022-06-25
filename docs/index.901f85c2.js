@@ -37123,10 +37123,6 @@ class Fish extends _pixiJs.Sprite {
         this.y = Math.random() * 500;
         this.x = Math.random() * 400;
     }
-    update(delta) {
-        this.x += 2;
-        if (this.x < -120) this.x = 1300;
-    }
 }
 
 },{"pixi.js":"dsYej","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["fpRtI","edeGs"], "edeGs", "parcelRequirea0e5")

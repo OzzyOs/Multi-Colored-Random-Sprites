@@ -15,14 +15,6 @@ export class Fish extends PIXI.Sprite {
     
     }
 
-    update(delta:number) {
-        this.x += 2
-        
-        if (this.x < - 120) {
-            this.x = 1300;
-        }
-    }
-
 }
     
        
